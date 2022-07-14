@@ -17,6 +17,10 @@ int main() {
         printf("Tails\n");
         tcount++;}
     }
-    printf("Heads: %d, Tails: %d",hcount,tcount);
+     printf("Heads: %d, Tails: %d\n",hcount,tcount);
+    if(hcount>tcount)
+    printf("You won");
+    else
+    printf("You lost");
     return 0;
 }
