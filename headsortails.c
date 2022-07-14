@@ -23,8 +23,8 @@ int main() {
     }
      printf("Heads: %d, Tails: %d\n",hcount,tcount);
     if(hcount>tcount)
-    printf("You won");
+    printf("%s won",c);
     else
-    printf("You lost");
+    printf("%s lost",c);
     return 0;
 }
