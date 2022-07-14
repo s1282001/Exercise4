@@ -2,6 +2,10 @@
 
 #include<stdlib.h>
 int main() {
+    char c[20];
+    printf("Who are you?\n");
+    scanf("%s",c);
+    printf("Hello, %s!\n",c);
     int random;
     int hcount=0;
     int tcount=0;
